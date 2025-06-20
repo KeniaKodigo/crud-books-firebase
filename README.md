@@ -1,12 +1,23 @@
-# React + Vite
+# 📚 CRUD de Libros con React y Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web creada con **React** que permite gestionar un listado de libros mediante operaciones CRUD (*Crear, Leer, Actualizar y Eliminar*), utilizando **Firebase** como backend.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ [React](https://reactjs.org/) – Biblioteca para construir interfaces de usuario.
+- 🔥 [Firebase](https://firebase.google.com/) – Se utiliza Firestore para base de datos en tiempo real.
+- 🌐 [React Router DOM](https://reactrouter.com/) – Para la navegación entre vistas del proyecto.
 
-## Expanding the ESLint configuration
+## 🧩 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación permite:
+
+- **📄 Listar libros** registrados en la base de datos.
+- **➕ Agregar un nuevo libro** ingresando título, autor y género.
+- **✏️ Editar un libro** existente (con datos precargados en el formulario).
+- **🗑️ Eliminar libros** de la lista.
+- Navegar entre las vistas mediante un **menú** fijo.
+- Cada vista es gestionada mediante rutas usando React Router DOM.
+
+
+
